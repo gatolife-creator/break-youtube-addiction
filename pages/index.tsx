@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { VideoData } from "@/utils/search";
+import { VideoData } from "@/utils/api/search";
 
 const dummyVideoData = [
   {
