@@ -41,6 +41,7 @@ export default function Home() {
       <div className="grid grid-cols-3 gap-1">
         {videosData?.map((data, index) => (
           <div key={index}>
+            {/*eslint-disable-next-line @next/next/no-img-element*/}
             <img
               src={`https://i.ytimg.com/vi/${data.id}/hqdefault.jpg`}
               alt="thumbnail"

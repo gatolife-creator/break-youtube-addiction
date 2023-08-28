@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { CustomNavbar } from "@/components/CustomNavbar";
+// import { CustomNavbar } from "./components/CustomNavbar";
 import { NextUIProvider } from "@nextui-org/react";
 
 export default function Document() {
@@ -8,7 +8,6 @@ export default function Document() {
       <Head />
       <body>
         <NextUIProvider>
-          <CustomNavbar />
           <Main />
           <NextScript />
         </NextUIProvider>
