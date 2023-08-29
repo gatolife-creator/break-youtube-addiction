@@ -1,4 +1,4 @@
-import { google, youtube_v3 } from "googleapis";
+import { google } from "googleapis";
 import * as dotenv from "dotenv";
 
 dotenv.config();
@@ -22,6 +22,7 @@ export async function search(option: Option) {
     order: "viewCount",
     type: ["video"],
     q: query,
+    maxResults: 50,
   });
 
   if (response.data.items?.length === 0) {
