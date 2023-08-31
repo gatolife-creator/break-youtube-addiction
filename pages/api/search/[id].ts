@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { search, VideoData } from "../../../utils/api/search";
+import { search, VideoData } from "../../../utils/search";
 
 export default async function handler(
   req: NextApiRequest,
